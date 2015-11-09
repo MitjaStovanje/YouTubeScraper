@@ -1,0 +1,20 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "author":"Mitja Stovanje",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pitko/YouTubeScraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pitko/YouTubeScraper/issues"
+  },
+  "homepage": "https://github.com/Pitko/YouTubeScraper#readme"
+}

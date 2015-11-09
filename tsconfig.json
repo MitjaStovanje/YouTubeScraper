@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "outDir": "public",
+        "jsx": "react"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!./node_modules/**/*.ts",
+        "!./node_modules/**/*.tsx"
+    ],
+    "files": [
+        "./typings/gapi.youtube/gapi.youtube.d.ts",
+        "./typings/gapi/gapi.d.ts",
+        "./typings/node/node.d.ts",
+        "./typings/tsd.d.ts",
+        "./typings/yui/yui.d.ts",
+        "./src/app.tsx",
+        "./src/Server.tsx"
+    ]
+}
